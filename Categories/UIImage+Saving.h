@@ -8,7 +8,7 @@
 //
 
 
-#import "NYXImagesHelper.h"
+#import <NYXImagesKit/NYXImagesHelper.h>
 
 
 typedef enum

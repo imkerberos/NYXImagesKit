@@ -20,7 +20,7 @@
 		3F76C3C41C64BD3D000E19DF /* UIImage+Saving.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0289FC144EF39800B6B6D5 /* UIImage+Saving.m */; };
 		3F76C3C51C64BD3D000E19DF /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF44D4E17058586005F335C /* UIView+Screenshot.m */; };
 		3F76C3C61C64BD3D000E19DF /* UIScrollView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF44D5217058627005F335C /* UIScrollView+Screenshot.m */; };
-		3F76C3C71C64BD52000E19DF /* NYXImagesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289FE144EF39800B6B6D5 /* NYXImagesHelper.h */; };
+		3F76C3C71C64BD52000E19DF /* NYXImagesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289FE144EF39800B6B6D5 /* NYXImagesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F76C3C81C64BD52000E19DF /* NYXProgressiveImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9BA7B114C0B0EF0072A0FB /* NYXProgressiveImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F76C3C91C64BD52000E19DF /* UIImage+Blurring.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0289EF144EF39800B6B6D5 /* UIImage+Blurring.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F76C3CA1C64BD52000E19DF /* UIImage+Enhancing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EED6785148A314B00B71186 /* UIImage+Enhancing.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -189,6 +189,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F76C3C71C64BD52000E19DF /* NYXImagesHelper.h in Headers */,
 				3F76C3D11C64BD52000E19DF /* UIView+Screenshot.h in Headers */,
 				3F76C3D21C64BD52000E19DF /* UIScrollView+Screenshot.h in Headers */,
 				3F76C3C81C64BD52000E19DF /* NYXProgressiveImageView.h in Headers */,
@@ -201,7 +202,6 @@
 				3F76C3CF1C64BD52000E19DF /* UIImage+Rotating.h in Headers */,
 				3F76C3D01C64BD52000E19DF /* UIImage+Saving.h in Headers */,
 				3F76C3B61C64BD0F000E19DF /* NYXImagesKit.h in Headers */,
-				3F76C3C71C64BD52000E19DF /* NYXImagesHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +465,7 @@
 				3F76C3BA1C64BD0F000E19DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

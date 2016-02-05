@@ -27,7 +27,7 @@
 //  THE SOFTWARE.
 
 
-#import "NYXImagesHelper.h"
+#import <NYXImagesKit/NYXImagesHelper.h>
 
 
 @interface UIImage (NYX_Reflection)
