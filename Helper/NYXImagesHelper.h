@@ -7,7 +7,9 @@
 //  Copyright 2012 Nyx0uf. All rights reserved.
 //  www.cocoaintheshell.com
 //
-
+#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <CoreImage/CoreImage.h>
 
 /* Number of components for an opaque grey colorSpace = 3 */
 #define kNyxNumberOfComponentsPerGreyPixel 3

@@ -7,6 +7,7 @@
 //  www.cocoaintheshell.com
 //
 
+#import <UIKit/UIKit.H>
 
 @interface UIImage (NYX_Enhancing)
 
